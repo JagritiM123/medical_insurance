@@ -121,5 +121,3 @@ cd medicalinsurance
 jupyter notebook medical_insurance.ipynb
 ```
 
----
-<p align="center">Built from scratch </p>
