@@ -57,7 +57,7 @@ $$x_{scaled} = \frac{x - \mu}{\sigma}$$
 - Mean and std computed from **training data only**
 - Same parameters applied to test data
 
-### 6. 🧠 Model — Multiple Linear Regression
+### 6. Model — Multiple Linear Regression
 
 $$\hat{y} = b + w_1 \cdot age + w_2 \cdot bmi + w_3 \cdot smoker + w_4 \cdot bmi\_smoker$$
 
@@ -108,10 +108,18 @@ $$\theta = \theta - \alpha \cdot \frac{\partial J}{\partial \theta}$$
 * Pandas
 * Matplotlib
 ---
+##  How to Run
 
-##  Project Structure
-medicalinsurance/
-│
-├── medical_insurance.ipynb # main notebook
-├── insurance.csv # dataset
-└── README.md # project documentation
+```bash
+# clone the repo
+git clone https://github.com/JagritiM123/medicalinsurance.git
+
+# navigate to folder
+cd medicalinsurance
+
+# open the notebook
+jupyter notebook medical_insurance.ipynb
+```
+
+---
+<p align="center">Built from scratch </p>
